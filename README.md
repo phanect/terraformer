@@ -219,6 +219,14 @@ https://www.terraform.io/docs/configuration/providers.html
 
 ### Use with GCP
 
+First, [install `gcloud`](https://cloud.google.com/sdk/docs/install).
+Then login with `gcloud` command. You also need to run `gcloud auth application-default login`.
+
+```shell
+$ gcloud login
+$ gcloud auth application-default login
+```
+
 [![asciicast](https://asciinema.org/a/243961.svg)](https://asciinema.org/a/243961)
 
 Example:
